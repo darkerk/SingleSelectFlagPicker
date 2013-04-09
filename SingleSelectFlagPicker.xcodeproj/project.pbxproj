@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C77136611713B743006BF0C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77136601713B743006BF0C6 /* UIKit.framework */; };
+		C77136631713B743006BF0C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77136621713B743006BF0C6 /* Foundation.framework */; };
+		C77136651713B743006BF0C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77136641713B743006BF0C6 /* CoreGraphics.framework */; };
+		C771366B1713B743006BF0C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C77136691713B743006BF0C6 /* InfoPlist.strings */; };
+		C771366D1713B743006BF0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C771366C1713B743006BF0C6 /* main.m */; };
+		C77136711713B743006BF0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C77136701713B743006BF0C6 /* AppDelegate.m */; };
+		C77136731713B743006BF0C6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C77136721713B743006BF0C6 /* Default.png */; };
+		C77136751713B743006BF0C6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C77136741713B743006BF0C6 /* Default@2x.png */; };
+		C77136771713B743006BF0C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C77136761713B743006BF0C6 /* Default-568h@2x.png */; };
+		C771367F1713B75D006BF0C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C771367E1713B75D006BF0C6 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C771365D1713B743006BF0C6 /* SingleSelectFlagPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleSelectFlagPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77136601713B743006BF0C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C77136621713B743006BF0C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C77136641713B743006BF0C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C77136681713B743006BF0C6 /* SingleSelectFlagPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingleSelectFlagPicker-Info.plist"; sourceTree = "<group>"; };
+		C771366A1713B743006BF0C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C771366C1713B743006BF0C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C771366E1713B743006BF0C6 /* SingleSelectFlagPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SingleSelectFlagPicker-Prefix.pch"; sourceTree = "<group>"; };
+		C771366F1713B743006BF0C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C77136701713B743006BF0C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C77136721713B743006BF0C6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C77136741713B743006BF0C6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C77136761713B743006BF0C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C771367D1713B75D006BF0C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C771367E1713B75D006BF0C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C771365A1713B743006BF0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77136611713B743006BF0C6 /* UIKit.framework in Frameworks */,
+				C77136631713B743006BF0C6 /* Foundation.framework in Frameworks */,
+				C77136651713B743006BF0C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C77136541713B743006BF0C6 = {
+			isa = PBXGroup;
+			children = (
+				C77136661713B743006BF0C6 /* SingleSelectFlagPicker */,
+				C771365F1713B743006BF0C6 /* Frameworks */,
+				C771365E1713B743006BF0C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C771365E1713B743006BF0C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C771365D1713B743006BF0C6 /* SingleSelectFlagPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C771365F1713B743006BF0C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C77136601713B743006BF0C6 /* UIKit.framework */,
+				C77136621713B743006BF0C6 /* Foundation.framework */,
+				C77136641713B743006BF0C6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C77136661713B743006BF0C6 /* SingleSelectFlagPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C771366F1713B743006BF0C6 /* AppDelegate.h */,
+				C77136701713B743006BF0C6 /* AppDelegate.m */,
+				C771367D1713B75D006BF0C6 /* ViewController.h */,
+				C771367E1713B75D006BF0C6 /* ViewController.m */,
+				C77136671713B743006BF0C6 /* Supporting Files */,
+			);
+			path = SingleSelectFlagPicker;
+			sourceTree = "<group>";
+		};
+		C77136671713B743006BF0C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77136681713B743006BF0C6 /* SingleSelectFlagPicker-Info.plist */,
+				C77136691713B743006BF0C6 /* InfoPlist.strings */,
+				C771366C1713B743006BF0C6 /* main.m */,
+				C771366E1713B743006BF0C6 /* SingleSelectFlagPicker-Prefix.pch */,
+				C77136721713B743006BF0C6 /* Default.png */,
+				C77136741713B743006BF0C6 /* Default@2x.png */,
+				C77136761713B743006BF0C6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C771365C1713B743006BF0C6 /* SingleSelectFlagPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C771367A1713B743006BF0C6 /* Build configuration list for PBXNativeTarget "SingleSelectFlagPicker" */;
+			buildPhases = (
+				C77136591713B743006BF0C6 /* Sources */,
+				C771365A1713B743006BF0C6 /* Frameworks */,
+				C771365B1713B743006BF0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleSelectFlagPicker;
+			productName = SingleSelectFlagPicker;
+			productReference = C771365D1713B743006BF0C6 /* SingleSelectFlagPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77136551713B743006BF0C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TuShengNetWork;
+			};
+			buildConfigurationList = C77136581713B743006BF0C6 /* Build configuration list for PBXProject "SingleSelectFlagPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C77136541713B743006BF0C6;
+			productRefGroup = C771365E1713B743006BF0C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C771365C1713B743006BF0C6 /* SingleSelectFlagPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C771365B1713B743006BF0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C771366B1713B743006BF0C6 /* InfoPlist.strings in Resources */,
+				C77136731713B743006BF0C6 /* Default.png in Resources */,
+				C77136751713B743006BF0C6 /* Default@2x.png in Resources */,
+				C77136771713B743006BF0C6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77136591713B743006BF0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C771366D1713B743006BF0C6 /* main.m in Sources */,
+				C77136711713B743006BF0C6 /* AppDelegate.m in Sources */,
+				C771367F1713B75D006BF0C6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C77136691713B743006BF0C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C771366A1713B743006BF0C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C77136781713B743006BF0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C77136791713B743006BF0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C771367B1713B743006BF0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleSelectFlagPicker/SingleSelectFlagPicker-Prefix.pch";
+				INFOPLIST_FILE = "SingleSelectFlagPicker/SingleSelectFlagPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C771367C1713B743006BF0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleSelectFlagPicker/SingleSelectFlagPicker-Prefix.pch";
+				INFOPLIST_FILE = "SingleSelectFlagPicker/SingleSelectFlagPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C77136581713B743006BF0C6 /* Build configuration list for PBXProject "SingleSelectFlagPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77136781713B743006BF0C6 /* Debug */,
+				C77136791713B743006BF0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C771367A1713B743006BF0C6 /* Build configuration list for PBXNativeTarget "SingleSelectFlagPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C771367B1713B743006BF0C6 /* Debug */,
+				C771367C1713B743006BF0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C77136551713B743006BF0C6 /* Project object */;
+}
