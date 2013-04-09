@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C735CAC61713BC4300D2EAF7 /* ProvincesCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = C735CAC31713BC4300D2EAF7 /* ProvincesCities.plist */; };
+		C735CAC71713BC4300D2EAF7 /* UIPickerChecked.png in Resources */ = {isa = PBXBuildFile; fileRef = C735CAC41713BC4300D2EAF7 /* UIPickerChecked.png */; };
+		C735CAC81713BC4300D2EAF7 /* UIPickerChecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C735CAC51713BC4300D2EAF7 /* UIPickerChecked@2x.png */; };
 		C77136611713B743006BF0C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77136601713B743006BF0C6 /* UIKit.framework */; };
 		C77136631713B743006BF0C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77136621713B743006BF0C6 /* Foundation.framework */; };
 		C77136651713B743006BF0C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77136641713B743006BF0C6 /* CoreGraphics.framework */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C735CAC31713BC4300D2EAF7 /* ProvincesCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProvincesCities.plist; sourceTree = "<group>"; };
+		C735CAC41713BC4300D2EAF7 /* UIPickerChecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIPickerChecked.png; sourceTree = "<group>"; };
+		C735CAC51713BC4300D2EAF7 /* UIPickerChecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIPickerChecked@2x.png"; sourceTree = "<group>"; };
 		C771365D1713B743006BF0C6 /* SingleSelectFlagPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleSelectFlagPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77136601713B743006BF0C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C77136621713B743006BF0C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +99,9 @@
 		C77136671713B743006BF0C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C735CAC31713BC4300D2EAF7 /* ProvincesCities.plist */,
+				C735CAC41713BC4300D2EAF7 /* UIPickerChecked.png */,
+				C735CAC51713BC4300D2EAF7 /* UIPickerChecked@2x.png */,
 				C77136681713B743006BF0C6 /* SingleSelectFlagPicker-Info.plist */,
 				C77136691713B743006BF0C6 /* InfoPlist.strings */,
 				C771366C1713B743006BF0C6 /* main.m */,
@@ -159,6 +168,9 @@
 				C77136731713B743006BF0C6 /* Default.png in Resources */,
 				C77136751713B743006BF0C6 /* Default@2x.png in Resources */,
 				C77136771713B743006BF0C6 /* Default-568h@2x.png in Resources */,
+				C735CAC61713BC4300D2EAF7 /* ProvincesCities.plist in Resources */,
+				C735CAC71713BC4300D2EAF7 /* UIPickerChecked.png in Resources */,
+				C735CAC81713BC4300D2EAF7 /* UIPickerChecked@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				C771367C1713B743006BF0C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
